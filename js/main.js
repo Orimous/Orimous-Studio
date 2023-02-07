@@ -1,4 +1,3 @@
-/*
 const prev = document.getElementById('btn-prev'),
     next = document.getElementById('btn-next'),
     slides = document.querySelectorAll('.slide');
@@ -7,7 +6,7 @@ let index = 0;
 let timer = 0;
 
 function autoSlider() {
-    timer = setTimeout(nextSlide, 2000);
+    timer = setTimeout(nextSlide, 5000);
 
 }
 
@@ -43,7 +42,7 @@ const prevSlide = () => {
 autoSlider();
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
-*/
+
 
 //main dark mod 
 const theme = document.getElementById("theme");

@@ -222,39 +222,50 @@ main{
     height: auto;
 }
 
-.slide h4{
-    padding-left: 17px;
-    padding-top: 22px;
+.specialists{
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 25px;
+    flex-wrap: wrap;
 }
 
-.slide p{
-    padding-top: 10px;
-    padding-left: 17px;
-    width: 475px;  
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+.specialict__block .logoSpec{
+    width: 100px;
+    border-radius: 50%;
 }
 
-.slide .product_active{
-    width: 665px;
-}
-
-.slide .capadocia_active {
-    width: 511px;
+.specialists p{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
 }
 
 .slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    width: 700px;
-    height: 561px;
+    width: 297px;
+    height: 185.75px;
     position: relative;
 }
 
-.portfolio h2{
-    text-align: center;
-    padding-bottom: 30px;
+
+.specialict__block .contactToSpecialist{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background: #7562E0;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.slider img{
+    width: 300px;
 }
 
 #btn-prev, #btn-next {
@@ -631,16 +642,6 @@ footer p{
     .portfolio h2{
         padding-bottom: 10px;
     }
-    .slider{
-        height: 467px;
-        width: auto;
-    }
-    .slide img{
-        width: 100%;
-    }
-    .slide .product_active{
-        width: 93%;
-    }
     .about-me__content{
         flex-direction: column;
         text-align: center;
@@ -680,7 +681,7 @@ footer p{
         width: auto;
     }
     .slider{
-        height: 400px;
+        width: auto;
     }
     #btn-next{
         background: url(../img/next.png) no-repeat top 76px center;   

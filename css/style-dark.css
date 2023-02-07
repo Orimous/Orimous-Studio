@@ -450,7 +450,7 @@ footer p{
     width: fit-content;
     margin: 0 auto;
     background: #7562E0;
-    background-repeat: 15px;
+    border-radius: 10px;
     padding: 5px 10px;
 }
 
@@ -591,6 +591,18 @@ footer p{
     .home{
         margin: 0 auto;
     }
+    #popup{
+        width: 85%;
+        height: 360px;
+    }
+    .workers{
+        margin: 0 auto;
+        width: 90%;
+        row-gap: 15px;
+        column-gap: 0;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
     
 }
 
@@ -626,6 +638,9 @@ footer p{
     }
     #btn-next{
         right: 7.5px;
+    }
+    .workers h3{
+        font-size: 20px;
     }
 }
 
@@ -687,16 +702,12 @@ footer p{
     .error__content img{
         width: 100%;
     }
+    #popup{
+        height: 639px;
+    }
+    #close-call img{
+        margin-left: 85%;
+    }
 }
 
-@media (max-width: 275px){
-    h1{
-        font-size: 25px;
-    }
-    .home{
-        width: 95%;
-        height: auto;
-        padding: 15px 0;
-    }
-}
 

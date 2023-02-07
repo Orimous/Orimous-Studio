@@ -1,3 +1,4 @@
+/*
 const prev = document.getElementById('btn-prev'),
     next = document.getElementById('btn-next'),
     slides = document.querySelectorAll('.slide');
@@ -42,6 +43,7 @@ const prevSlide = () => {
 autoSlider();
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
+*/
 
 //main dark mod 
 const theme = document.getElementById("theme");
@@ -123,6 +125,7 @@ anchors.forEach(anchor => {
         })
     })
 })
+
 
 
 //! modal windows
